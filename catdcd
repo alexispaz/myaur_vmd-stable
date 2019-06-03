@@ -1,0 +1,6 @@
+#!/usr/bin/bash                                                                                         
+                                                                                                        
+export LD_LIBRARY_PATH="/usr/lib/vmd:$LD_LIBRARY_PATH"
+/usr/lib/vmd/plugins/LINUXAMD64/bin/catdcd5.1/catdcd $@                                                                                    
+                                                                                                        
+exit 0
