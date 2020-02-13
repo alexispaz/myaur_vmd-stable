@@ -21,10 +21,12 @@ conflicts=('vmd-src')
 # Current download should be:
 # LINUX_64 OpenGL, CUDA, OptiX RTX, OSPRay (Linux (RHEL 6.7+) 64-bit Intel/AMD x86_64 SSE, with CUDA 9.x, OptiX6 RTX, OSPRay)
 source=("local://${pkgname}-${pkgver}.bin.LINUXAMD64-CUDA10-OptiX600-RTX-OSPRay170.opengl.tar.gz"
+        "local://catdcd"
         "vmd.desktop"
         "vmd.install"
         "vmd.png")
 sha256sums=("cc6e6fa4f262c86fc0d2bd7b161f37ac5eb3ae05793731709f8d834ef1e5432c"
+            "38d69769dcfaf144bf04886e81498d860da0f367f07216a28ac2460eabc1c7f2"
             "942b752e2c9c1d6e3adb55ccdee14d1794640c341ddb7d8d70fb02396dafe81a"
             "f703f8de14eb277dc72cc837086fbd55f5d772049a44200686c8ae76348f6614"
             "d83f568615ad954f582d986975997186fdacfd8f79c30f49d6aaf07ba2eb6aa7")
